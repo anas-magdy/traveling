@@ -1,0 +1,262 @@
+html ,body
+{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    font-size: 100%;
+}
+/*ده اول سيكشن اللي فيه ال navbar*/
+.section1
+{
+    height: 750px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url("Germany-Header (1).jpg");
+    background-repeat: no-repeat;
+    opacity: 0.90;
+}
+/* دي الليست بتاعه ال navbar*/
+.link
+{
+    float: right;
+    overflow: hidden;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*السطور بتاعه الليست*/
+.navbar li
+{
+   float: right;
+   margin-right: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 30px;
+   color: rgba(0, 0, 0, 0);/*ده جزء من التحايل علي القانون*/
+}
+/**/
+.navebar li a
+{
+    display: block;
+    padding: 20px;
+    list-style: none;
+    list-style-type: none;
+}
+/**/
+a:link
+{
+    text-decoration: none;
+}
+/**/
+a:hover
+{
+    color: rgb(35, 23, 90);
+    transform: scale(1.1,1.2);
+    transition: ease-in-out 0.5s;
+}
+/* جزء من الليست*/
+.navbar .home
+{
+    float: left;
+    margin-left: 50px;
+}
+/* جزء تاني*/
+.navbar .contact
+{
+    float: left;
+    margin-left: 100px;
+}
+/*جزء تالت*/
+.navbar .english
+{
+    margin-right:60px;
+}
+/*جزء  رابع*/
+.navbar .reservations
+{
+    float: left;
+    margin-left: 150px;
+}
+/* الخط اللي بيفصل الناف بار ب الباقي*/
+hr
+{
+    width: 75%;
+    text-align: center;
+    margin-top: 50px;
+}
+/*ده الجزء اللي مكتوب في الخلفيه الاولانيه*/
+.intro
+{
+    width: 40%;
+    height: 30%;
+    float: right;
+    margin-top: 60px;
+    margin-right:60px;
+    font-size: 25px;
+    text-align: center;
+}
+/*البوتون اللي تحت  الكلام*/
+.learnMore
+{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(52, 160, 196);
+    color: rgb(32, 14, 61);
+    border: 2px solid gray;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 20%;
+}
+/*دي خواص البوتون لما اعدي الماوس عليها*/
+.learnMore:hover
+{
+    transform: scale(1.1,1.2);
+    transition: ease-in-out 0.5s;
+    background-color: rgb(32, 14, 61);
+    color:  rgb(52, 160, 196);
+}
+/*-------------------------------------------------------*/
+/*ده السكشن التاني اللي شبه مواقع الحكومه*/
+.sec
+{ 
+    height: 1100px;
+    background-color: rgb(1, 45, 92);
+    opacity: 0.9 ;
+    color: white;
+    padding-bottom: 0pt;
+    margin-bottom: 0pt;
+    margin-bottom: auto;
+}
+/*ده تنصيق الصوره اللي في نص الصفحه فوق*/
+.flag
+{
+    border-radius: 100%;
+}
+/*دي الديف اللي تحت صوره العلم*/
+.Civilization
+{
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: center;
+    font-size: 20px;
+}
+/*ده صوره القلعه اللي علي الشمال فوق*/
+.Castle
+{
+    border-radius: 100%;
+    float: left;
+    margin-left: 50px;
+}
+/*ده الكلام اللي جنبها*/
+.read
+{
+    float: right;
+    width:500px;
+    margin-right: 400px;
+}
+/*دي الديف الكامله اللي فيها الصوره و الكلام اللي جنبه*/
+.archeological
+{
+    margin-top: 90px;
+}
+/*دي النوتون اللي تحت الكلام */
+.readMore
+{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(52, 160, 196);
+    color: rgb(32, 14, 61);
+    border: 2px solid gray;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 20%;
+}
+/*دي نفس البوتون لكن لما اعمل هافار*/
+.readMore:hover
+{
+    transform: scale(1.1,1.2);
+    transition: ease-in-out 0.5s;
+    background-color: rgb(32, 14, 61);
+    color:  rgb(52, 160, 196);
+}
+/*دي صوره المدينه */
+.city
+{
+    border-radius: 100%;
+    margin-top: 120px;
+    margin-left: 50px;
+    float: left;
+}
+/*ده الكلام اللي جنبها*/
+.read-2
+{   
+    width: 500px;
+    float: right;
+    margin-right: 400px;
+    margin-top: 70px;
+}
+/*--------------------------------------------------------*/
+/*ده السكشن اللي بيتكلم علي الاحتفالات*/
+.sec-2
+{
+    padding: 0;
+    margin: auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    height: 700px;
+    background-image: url("image (1).jpg");
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+/*ده العنوان بتاع السيكشن*/
+.celebrates
+{
+    padding-left: 550px; 
+    padding-top: 50px;
+    font-size: 50px;
+}
+/*دي الصوره اللي فيها اتنين عبط كده*/
+.ehtefal
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+/*دي الديف الكامله اللي فيها الصوره واللامك*/
+.face
+{
+    float: left;
+    margin-left: -500px;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+}
+/*دي صوره المغني اللي  علي اليمين*/
+.peter
+{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+/*الديف الكامله اللي فيها الصوره والكلام*/
+.party
+{
+    float: right;
+    margin-right: 30px;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+/*الكلمتين الليكانو محشورن في ظوري*/
+.theEnd
+{
+    margin-top: 500px;
+    margin-left: 300px;
+    font-size: 40px;
+}
+/*كنت ب احاول اصلح الموقف بتاع الفصله البيضه*/
+
+.color
+{
+    background-color: rgb(1, 45, 92 ;
+    height: 200px;
+}
+/*تمت بحمد الله*/
